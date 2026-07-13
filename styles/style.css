@@ -31,6 +31,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 17px 0;
 
  
 }
@@ -42,4 +43,26 @@ nav>ul{
 nav>ul li a{
     text-decoration: none;
     color: #575757;
+}
+.banner_main_section{
+    border: 1px solid black;
+    padding: 120px 0 65px;
+    background:
+    linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),
+    url("../assets/banner.jpg");
+    color: white;
+}
+.banner_container{
+    max-width: 959px;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner_container h1{
+    font-size: 65px;
+}
+.banner_container p{
+    margin: 16px auto 260px;
+    font-size: 20px;
+    max-width: 720px;
+
 }
