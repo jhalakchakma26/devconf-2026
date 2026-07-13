@@ -105,3 +105,105 @@ nav>ul li a{
     font-size: 14px;
     color: #575757;
 }
+
+.plans_container{
+    border: 1px solid black;
+}
+
+.plans_container> h3{
+    font-size: 40px;
+    text-align: center;
+}
+.plans_container>p{
+font-size: 15px;
+color: #575757;
+text-align: center;
+margin: 12px 0 40px;
+}
+.plans{
+    max-width: 77%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.plan{
+    border: 1px solid #EBEDF0;
+    border-radius: 12px;
+    padding: 30px;
+}
+.plan>h4{
+    color: #888888;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.plan>h2{
+    color: #0D1B2A;
+    font-size: 40px;
+    margin: 8px 0;
+}
+.plan>p{
+    color: #888888;
+    font-size: 13px;
+}
+.plan>hr{
+    height: 1px;
+    background-color: #E5E7EB;
+    margin: 20px 0;
+    border: none;
+}
+.plan>ul{
+    list-style-position: inside;
+    line-height: 25px;
+    
+}
+.plan>ul>li::marker{
+    color: #2563EB;
+}
+.plan >ul > li{
+    font-size: 14px;
+    color: #333333;
+}
+.button_container{
+    margin-top: 20px;
+}
+.plan_one_button{
+    background-color: white;
+    color: #1D4ED8;
+    width: 100%;
+}
+
+.plan2{
+    background-color: #0D1B2A;
+    border: 1px solid #0D1B2A;
+}
+.plan2>h4{
+    color: #93C5FD;
+}
+.plan2 h2{
+    color: white;
+}
+.plan2>p{
+    color: #868D95;
+}
+.plan2>hr{
+    background-color: #25323F;
+}
+.plan2>ul>li{
+    color: #FFFFFFCC;
+}
+.button_container button{
+    width: 100%;
+}
+.plan3{
+    background-color: #E5E7EB;
+}
+.plan3>hr{
+    background-color: #EEEFF2;
+}
+.plan3 button{
+    border: 1px solid #0D1B2A;
+    color: #0D1B2A;
+}
