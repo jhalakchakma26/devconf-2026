@@ -106,9 +106,6 @@ nav>ul li a{
     color: #575757;
 }
 
-.plans_container{
-    border: 1px solid black;
-}
 
 .plans_container> h3{
     font-size: 40px;
@@ -206,4 +203,44 @@ margin: 12px 0 40px;
 .plan3 button{
     border: 1px solid #0D1B2A;
     color: #0D1B2A;
+   
+}
+
+footer{
+    padding: 60px 0;
+    background-color: #0D1B2A;
+     margin-top: 60px;
+}
+.footer_container{
+    margin: 0 auto;
+}
+.footer_up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_container hr{
+    margin: 40px 0;
+    border: none;
+    height: 1px;
+    background-color: #504b4b66;
+}
+
+.footer_down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_down ul{
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+.footer_down p{
+    color: #FFFFFF66;
+}
+.footer_down a{
+    text-decoration: none;
+    color: #FFFFFF66;
 }
