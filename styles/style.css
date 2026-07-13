@@ -20,7 +20,6 @@ body{
     border-radius: 10px;
     cursor: pointer;
 }
-
 .common_width{
     max-width: 85%;
 }
@@ -65,4 +64,44 @@ nav>ul li a{
     font-size: 20px;
     max-width: 720px;
 
+}
+
+.speakrs_container{
+    margin: 80px auto 30px;
+}
+.speakrs_container>h2{
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 56px;
+}
+.speakers{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 33px;
+}
+.speaker{
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.speaker img{
+    width: 100%;
+}
+.speaker h4{
+    color: #2563EB;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 0 8px;
+}
+.speaker h3{
+    font-size: 20px;
+    color: #0D1B2A;
+    margin-bottom: 8px;
+}
+.speaker_description{
+    padding: 24px;
+}
+.speaker p{
+    font-size: 14px;
+    color: #575757;
 }
