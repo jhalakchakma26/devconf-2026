@@ -10,3 +10,36 @@
 body{
      font-family: "Inter", sans-serif;
 }
+/* common style */
+.common_btn{
+    background-color: #1D4ED8;
+    color: white;
+    font-weight: bold;
+    padding: 12px 40px;
+    border: 1px solid #1D4ED8;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.common_width{
+    max-width: 85%;
+}
+
+
+nav{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+ 
+}
+nav>ul{
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+nav>ul li a{
+    text-decoration: none;
+    color: #575757;
+}
